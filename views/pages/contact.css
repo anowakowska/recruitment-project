@@ -1,0 +1,35 @@
+.menu-list {
+    font-family: "memimas-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+    list-style-type: none;
+    margin-left: 400px;
+}
+
+.menu-element {
+    display: inline-block;
+    margin-right: 90px;
+}
+
+.contact-header {
+    font-size: 28px;
+    font-family: "omnes-arabic", sans-serif;
+    font-weight: 200;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 160px;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.submit {
+    outline: none;
+    border: 2px solid rgba(197, 197, 197, 0.377);
+    background-color: white;
+}
