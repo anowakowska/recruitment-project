@@ -12,24 +12,80 @@
     margin-right: 90px;
 }
 
+a:link,
+a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(197, 197, 197, 0.377);
+    transition: .4s;
+}
+
 .contact-header {
-    font-size: 28px;
+    font-size: 34px;
     font-family: "omnes-arabic", sans-serif;
     font-weight: 200;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
-    margin-top: 160px;
+    margin-top: 140px;
 }
 
 .form {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 30px auto;
     width: fit-content;
 }
 
 .submit {
     outline: none;
-    border: 2px solid rgba(197, 197, 197, 0.377);
-    background-color: white;
+    border: 1px solid #49494960;
+    background-color: transparent;
+    width: 400px;
+    height: 30px;
+    border-top: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: "omnes-arabic", sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-top: -18px;
+}
+
+.input,
+.input-message {
+    font-family: "omnes-arabic", sans-serif;
+    font-weight: 400;
+    width: 500px;
+    border: 1px solid #49494960;
+    outline: none;
+}
+
+.input {
+    border-bottom: none;
+}
+
+.input-message {
+    resize: none;
+    display: block;
+    width: 504px;
+    height: 100px;
+}
+
+.input:focus,
+.input-message:focus {
+    border: 1px solid black;
+    outline: none;
+}
+
+.info {
+    margin-left: 400px;
+    margin-top: 120px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: "omnes-arabic", sans-serif;
+    font-weight: 400;
+    border-left: rgba(197, 197, 197, 0.377) 1px solid;
 }
